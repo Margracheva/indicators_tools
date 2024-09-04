@@ -7,7 +7,7 @@ import pandas as pd
 import urllib.parse
 
 # Load your Excel data
-data_path =  'Scorecards_final.xlsx''
+data_path = 'Scorecards_final.xlsx''
 df = pd.read_excel(data_path)
 
 # Initialize the Dash app
