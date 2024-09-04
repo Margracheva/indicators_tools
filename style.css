@@ -1,0 +1,44 @@
+/* Background color of the entire page */
+body {
+    background-color: #708090;
+}
+
+/* Styling for the main dashboard container */
+.dashboard-container {
+    width: 1400px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #010103;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+/* Styling for all paragraph elements */
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 15px;
+    text-align: justify;
+}
+
+/* Styling for all header elements */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+    margin: 15px;
+}
+
+/* Hide the x-axis labels */
+.xtick text {
+    display: none;
+}
+
+/* Optionally, hide the x-axis title as well */
+.xaxis-title {
+    display: none;
+}
